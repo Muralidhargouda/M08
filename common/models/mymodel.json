@@ -1,0 +1,35 @@
+{
+  "name": "Mymodel",
+  "plural": "Mymodels",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "required": true,
+      "default": "Muralidhar"
+    },
+    "Sex": {
+      "type": "string",
+      "required": true,
+      "default": "Male"
+    },
+    "number": {
+      "type": "number",
+      "required": true,
+      "default": 6605280645
+    },
+    "geopoint": {
+      "type": "string",
+      "required": true,
+      "default": "Marville"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
